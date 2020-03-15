@@ -4,9 +4,9 @@
   <title>Ongeza Customers</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </head>
 
 
@@ -360,7 +360,7 @@ document.getElementById('update_id').value = id;
 document.getElementById('update_first_name').value = fname;
 document.getElementById('update_last_name').value = lname;
 document.getElementById('update_town_name').value = tname;
-  document.getElementById(gname).selected = "true";
+document.getElementById(gname).selected = "true";
 }
 
 
